@@ -129,7 +129,7 @@
             </div>
 
 
-            <div class="card col s4 m4">
+            <!-- <div class="card col s4 m4">
                 <div class="">
                     <div class="card-body">
                         <h5 class="card-title">Distribuição Poisson</h5>
@@ -139,7 +139,8 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
+
             <div class="card col s4 m4">
                 <div class="">
                     <div class="card-body">
@@ -151,8 +152,6 @@
 
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="card col s4 m4">
                 <div class="">
                     <div class="card-body">
@@ -163,7 +162,10 @@
                     </div>
                 </div>
             </div>
-            <div class="card col s4 m4">
+        </div>
+        <div class="row">
+
+            <!-- <div class="card col s4 m4">
                 <div class=" ">
                     <div class="card-body">
                         <h5 class="card-title">Correlação/Regressão</h5>
@@ -172,7 +174,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="container">
@@ -580,7 +582,6 @@
 
             function getAmostra() {
                 if (!(v_erro > 0) || !(v_populacao > 0)) {
-                    //swal("Erro", "Favor informar a População e o Erro!", "error");
                     alert("Erro, Favor informar a População e o Erro!");
                     this.divAmostra.collapse('hide');
                 } else {
